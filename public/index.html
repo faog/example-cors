@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CORS</title>
+  </head>
+  <body>
+    <h1>Ejemplo Cors</h1>
+
+    <script>
+      fetch("http://localhost:3001/", 
+      {
+        method: 'POST',
+        body: JSON.stringify({name: "fabiola"})
+        }
+      ).then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+        })
+        .catch(err => console.error(err))
+    </script>
+  </body>
+</html>
