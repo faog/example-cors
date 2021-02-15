@@ -1,0 +1,33 @@
+{
+  "name": "example-cors",
+  "version": "1.0.0",
+  "description": "Ejemplo uso de CORS",
+  "main": "app.js",
+  "scripts": {
+    "start-cors": "nodemon app.js",
+    "start-no-cors": "nodemon app2.js",
+    "start-api": "nodemon api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faog/example-cors.git"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [
+    "Node",
+    "Cors",
+    "Api"
+  ],
+  "author": "Fabiola Orellana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faog/example-cors/issues"
+  },
+  "homepage": "https://github.com/faog/example-cors#readme"
+}
