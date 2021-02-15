@@ -4,9 +4,9 @@
   "description": "Ejemplo uso de CORS",
   "main": "app.js",
   "scripts": {
-    "start-cors": "nodemon app.js",
-    "start-no-cors": "nodemon app2.js",
-    "start-api": "nodemon api.js"
+    "start-cors": "nodemon src/app.js",
+    "start-no-cors": "nodemon src/app2.js",
+    "start-api": "nodemon src/api.js"
   },
   "repository": {
     "type": "git",
